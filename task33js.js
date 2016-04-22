@@ -27,7 +27,7 @@ switch(Arb.direction)
 	else if(text=="go")
 	{
 	  if(Arb.y>1){
-	var top=document.getElementById('red').style.top.replace('px','')-25;
+	var top=document.getElementById('red').style.top.replace('px','')-26;
 	document.getElementById('red').style.top=top+'px';
 	Arb.y--;
 	break;}
@@ -60,7 +60,7 @@ switch(Arb.direction)
 	else if(text=="go")
 	{
 		if(Arb.x<10){
-	var left=document.getElementById('red').style.left.replace('px','')-(-25);
+	var left=document.getElementById('red').style.left.replace('px','')-(-26);
 	document.getElementById('red').style.left=left+'px';
 	Arb.x++;
 	break;}
@@ -95,7 +95,7 @@ switch(Arb.direction)
 	else if(text=="go")
 	{ 
 	  if(Arb.y<10){
-	var top=document.getElementById('red').style.top.replace('px','')-(-25);
+	var top=document.getElementById('red').style.top.replace('px','')-(-26);
 	document.getElementById('red').style.top=top+'px';
 	Arb.y++;
 	break; 
@@ -131,7 +131,7 @@ switch(Arb.direction)
 	else if(text=="go")
 	{
 		if(Arb.x>1){
-	var left=document.getElementById('red').style.left.replace('px','')-25;
+	var left=document.getElementById('red').style.left.replace('px','')-26;
 	document.getElementById('red').style.left=left+'px';
 	Arb.x--;
 	break;}
